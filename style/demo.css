@@ -1,0 +1,14 @@
+
+div:not(.row) {
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.row * {
+    height: 50px;
+}

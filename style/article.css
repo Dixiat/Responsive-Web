@@ -1,0 +1,19 @@
+:root {
+    font-size: 10px;
+}
+
+article {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    article {
+        font-size: calc(1.4rem + 4 * ((100vw - 600px) / 600 ));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        font-size: 1.8rem;
+    }
+}
